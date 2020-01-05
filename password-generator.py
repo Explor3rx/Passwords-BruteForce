@@ -65,7 +65,7 @@ def inputs():
                         print ("Number of Passwords: ", len(passwords))
                         basicpass = str(input("Do you want to add the 10,000 most common passwords(123456, password,  etc) ? press y/n: ")) 
                         if basicpass == "y":
-                                FileRead = open("passwords.txt", 'r')
+                                FileRead = open("10kpass.txt", 'r')
                                 text = FileRead.read()
                                 passwords.append(text)
                                 FileRead.close()
